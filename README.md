@@ -1,2 +1,4 @@
-"# Exp3_RubenRamirezRoss_003V" 
-"# Exp3_RubenRamirezRoss_003V" 
+Se corrigen errores
+Se implementa QR
+Se genera APK
+Video presentación APK
