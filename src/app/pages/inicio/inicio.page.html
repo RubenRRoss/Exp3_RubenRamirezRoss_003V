@@ -1,0 +1,65 @@
+<ion-header class="background">
+  <ion-toolbar class="background">
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="primary">
+        <ion-icon slot="start" name="menu-outline" color="primary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="light">Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+        <ion-card-content>
+      <ion-card>
+        <img src="assets/duoc.jpg" class="ion-padding">
+      </ion-card>
+      <div color="dark">
+        <ion-card class="caja" color="primary">
+          <ion-card-content class="ion-text-center">
+            <img class="padding-boton" src="assets/ionicLogo.png" alt="">
+            <p class="titulo_bienvenida"><b>Bienvenidos a la APP De Asistencia</b></p>
+              <div class="padding-boton">
+                <ion-button color="dark" routerLink="/elegir">
+                  Iniciar Sesion
+                </ion-button>
+                <!--<ion-button color="medium"   routerLink="/elegir">
+                  Registrate
+                </ion-button>
+                <ion-button (click)="Cerrar()" color="danger" fill="outline">
+                  Salir
+                </ion-button>-->
+    
+              </div>
+    
+              <div>
+                <p class="login"> O ingresa tambien con: </p>
+                <img class="logo-inicio" src="assets/google.png" href="http://myaccount.google.com/">
+                <img class="logo-inicio" src="assets/yahoo.png" alt="https://login.yahoo.com/">
+              </div>
+          </ion-card-content>
+    
+        </ion-card>
+    
+    </div>
+
+    </ion-card-content>
+
+
+ 
+  <!--
+  <ion-button routerLink="/alert">
+    Alert
+  </ion-button>
+
+  <ion-button routerLink="/action-sheet">
+    Action Sheet
+  </ion-button>-->
+
+</ion-content>
+
+<ion-footer>
+
+
+
+</ion-footer>

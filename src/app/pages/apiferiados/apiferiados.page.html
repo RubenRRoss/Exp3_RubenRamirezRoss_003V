@@ -1,0 +1,35 @@
+<ion-header class="background">
+  <ion-toolbar class="background">
+    <ion-title color="primary">Feriados de Chile</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button 
+        defaultHref="/"
+        text="Volver"
+        color="primary"
+        mode="ios"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content >
+  <ion-card>
+    <ion-item *ngFor="let feriado of feriados">
+      
+  <div class="row">
+    <div class="col">Nombre Feriado: </div>
+    <div class="col">Tipo Feriado:</div>
+    <div class="col">Fecha</div>
+    <div class="col">Irrenunciable</div>
+    <div class="col"></div>
+  </div>
+  <div class="row">
+    <div class="col">{{feriado.title}}</div>
+    <div class="col">{{feriado.type}}</div>
+    <div class="col">{{feriado.date}}</div>
+    <div class="col">{{feriado.inalienable}}</div>
+
+  </div></ion-item>
+  </ion-card>
+</ion-content>
